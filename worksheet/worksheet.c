@@ -1,3 +1,4 @@
+
 /**
  * Week 6 Worksheet - Functions Practice
  *
@@ -117,15 +118,15 @@ void reverse_array(int *arr, int n) {
   int l = 0;
   int r = n-1;
 
-  while (l<r)[
+  while (l<r){
     int temp = arr[l];
     arr[l] = arr[r];
     arr[r]= temp;
 
-    l++;
-    r--;
+    l++ ;
+    r-- ;
 
-  ]
+}
 }
 
 /**
@@ -175,7 +176,7 @@ int find_max(int *arr, int n, int *index) {
   int max = arr[0];
   int max_idx = 0;
 
-  for (int i = 1; i<n: i++){
+  for (int i = 1; i<n; i++){
     if(arr[i]>max){
       max = arr[i];
       max_idx = i;
